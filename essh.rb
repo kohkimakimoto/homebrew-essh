@@ -1,9 +1,9 @@
 class Essh < Formula
   desc "Extended ssh command."
   homepage "https://kohkimakimoto.github.io/essh/"
-  version '3.1.0'
-  url "https://github.com/kohkimakimoto/essh/releases/download/v3.1.0/essh_darwin_amd64.zip"
-  sha256 "bdab23a03fc9025150466f0424b12f439d2205ea6a5c91669399ce01bb876617"
+  version '3.2.0'
+  url "https://github.com/kohkimakimoto/essh/releases/download/v3.2.0/essh_darwin_amd64.zip"
+  sha256 "d1e4e50f5267c50f7e50997b0c8605277d3bb25dfa8ef33b3ead6e0e8a693ccd"
 
   def install
     bin.install 'essh'
